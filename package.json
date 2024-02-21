@@ -1,0 +1,30 @@
+{
+  "name": "devluan-theme-unique",
+  "displayName": "LS Unique",
+  "description": "Theme criado a partir do theme Jupiter, com minhas adequações",
+  "publisher": "devluan",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "LS Unique",
+        "uiTheme": "vs-dark",
+        "path": "./themes/LS Unique color-theme.json"
+      }
+    ]
+  },
+  "icon": "img/icon.png",
+  "galleryBanner": {
+    "color": "#000a1a",
+    "theme": "dark"
+},
+  "keywords": [
+    "VSCode", "Themes", "color-theme", "theme", "Jupiter", "devluan", "dark", "ls unique"
+]
+}
