@@ -1,4 +1,4 @@
-# devluan-theme-unique README
+# LS Unique theme DevLuan README
 
 ## Working with Markdown
 
