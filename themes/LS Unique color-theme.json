@@ -601,6 +601,7 @@
 				"entity.name.function.destructor"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#0080ff"
 			}
 		},
@@ -629,7 +630,7 @@
 			],
 			"settings": {
 				"foreground": "#ffcc00",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -930,7 +931,7 @@
 	"workbench.tree.indent": 12, //distacias dos icones na janela explorador
 	// =================== CONFIG: editor ===================
 	"editor.rulers": [
-		120,
+		100,
 	], // <== Linhas guias
 	"editor.tabSize": 4, // <== Tamanho da tabulação
 	"editor.lineHeight": 18, // <== Altura da linha
