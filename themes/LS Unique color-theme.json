@@ -25,24 +25,24 @@
 		"activityBar.activeBackground": "#333333",
 		"quickInputList.focusBackground": "#2828aa",
 		"tab.border": "#1c1c1c",
-		"activityBarBadge.foreground": "#ffffff",
+		"activityBarBadge.foreground": "#eeeeee",
 		"badge.background": "#0066cc",
-		"badge.foreground": "#ffffff",
+		"badge.foreground": "#eeeeee",
 		"editor.foreground": "#f8f8f2",
 		"editor.selectionBackground": "#49483e",
 		"editorCursor.foreground": "#f8f8f0",
 		"editorWhitespace.foreground": "#3b3a32",
 		"statusBar.debuggingBackground": "#ff9900",
-		"statusBar.debuggingBorder": "#ffffff",
-		"statusBar.debuggingForeground": "#ffffff",
-		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingBorder": "#eeeeee",
+		"statusBar.debuggingForeground": "#eeeeee",
+		"statusBar.foreground": "#eeeeee",
 		"statusBar.noFolderBackground": "#ac00e6",
-		"statusBar.noFolderBorder": "#ffffff",
-		"statusBar.noFolderForeground": "#ffffff",
+		"statusBar.noFolderBorder": "#eeeeee",
+		"statusBar.noFolderForeground": "#eeeeee",
 		"terminal.foreground": "#f2f2f2",
-		"activityBar.foreground": "#ffffff",
+		"activityBar.foreground": "#eeeeee",
 		"button.background": "#0e639c",
-		"button.foreground": "#ffffff",
+		"button.foreground": "#eeeeee",
 		"button.hoverBackground": "#1177bb",
 		"debugExceptionWidget.background": "#420b0d",
 		"debugExceptionWidget.border": "#a31515",
@@ -163,14 +163,14 @@
 		"peekViewEditor.matchHighlightBackground": "#ff8f0099",
 		"peekViewEditorGutter.background": "#001f33",
 		"peekViewResult.background": "#252526",
-		"peekViewResult.fileForeground": "#ffffff",
+		"peekViewResult.fileForeground": "#eeeeee",
 		"peekViewResult.lineForeground": "#bbbbbb",
 		"peekViewResult.matchHighlightBackground": "#ea5c004d",
 		"peekViewResult.selectionBackground": "#3399ff33",
 		"peekViewResult.selectionForeground": "#ffffff",
 		"peekViewTitle.background": "#1e1e1e",
 		"peekViewTitleDescription.foreground": "#ccccccb3",
-		"peekViewTitleLabel.foreground": "#ffffff",
+		"peekViewTitleLabel.foreground": "#eeeeee",
 		"pickerGroup.border": "#3f3f46",
 		"pickerGroup.foreground": "#0097fb99",
 		"progressBar.background": "#0e70c0",
@@ -183,7 +183,7 @@
 		"statusBarItem.hoverBackground": "#ffffff1f",
 		"statusBarItem.prominentBackground": "#388a34",
 		"statusBarItem.prominentHoverBackground": "#369432",
-		"tab.activeForeground": "#ffffff",
+		"tab.activeForeground": "#eeeeee",
 		"tab.inactiveForeground": "#ffffff80",
 		"tab.unfocusedActiveForeground": "#ffffff80",
 		"tab.unfocusedInactiveForeground": "#ffffff40",
@@ -195,13 +195,13 @@
 		"terminal.ansiBrightGreen": "#23d18b",
 		"terminal.ansiBrightMagenta": "#d670d6",
 		"terminal.ansiBrightRed": "#f14c4c",
-		"terminal.ansiBrightWhite": "#e5e5e5",
+		"terminal.ansiBrightWhite": "#eeeeee",
 		"terminal.ansiBrightYellow": "#f5f543",
 		"terminal.ansiCyan": "#11a8cd",
 		"terminal.ansiGreen": "#0dbc79",
 		"terminal.ansiMagenta": "#bc3fbc",
 		"terminal.ansiRed": "#cd3131",
-		"terminal.ansiWhite": "#e5e5e5",
+		"terminal.ansiWhite": "#eeeeee",
 		"terminal.ansiYellow": "#e5e510",
 		"terminal.selectionBackground": "#ffffff40",
 		"textBlockQuote.background": "#7f7f7f1a",
@@ -542,13 +542,13 @@
 		{
 			"scope": "variable",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#eeeeee"
 			}
 		},
 		{
 			"scope": "entity.name.variable",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#eeeeee"
 			}
 		},
 		{
@@ -610,7 +610,7 @@
 				"invalid.deprecated"
 			],
 			"settings": {
-				"foreground": "#ff6699"
+				"foreground": "#ca3e6d"
 			}
 		},
 		{
@@ -649,7 +649,7 @@
 				"markup.other"
 			],
 			"settings": {
-				"foreground": "#cccccc"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -690,7 +690,7 @@
 				"meta.paragraph"
 			],
 			"settings": {
-				"foreground": "#f2f2f2"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -701,7 +701,7 @@
 				"punctuation.separator.continuation"
 			],
 			"settings": {
-				"foreground": "#f2f2f2"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -709,18 +709,20 @@
 				"source"
 			],
 			"settings": {
-				"foreground": "#f2f2f2",
+				"foreground": "#dddddd",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": [
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"storage.type.js",
+				"keyword.control.import"
 			],
 			"settings": {
-				"foreground": "#ffcc00",
-				"fontStyle": "bold"
+				"foreground": "#ffd000",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -735,7 +737,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#00ccff"
+				"foreground": "#25baff"
 			}
 		},
 		{
@@ -748,7 +750,7 @@
 			],
 			"settings": {
 				"foreground": "#ff0066",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -769,19 +771,20 @@
 				"variable.other.member",
 				"variable.other.constant",
 				"variable.function",
-				"variable.language"
+				"variable.language",
+				"variable.other.property",
 			],
 			"settings": {
-				"foreground": "#f2f2f2"
+				"foreground": "#dbdbdb"
 			}
 		},
 		{
-			"name": " AQUI AS COISAS SÃO ITALIC E SEM ESTILIZAÇÃ DE COR ",
+			"name": " AQUI AS COISAS SÃO ITALIC E SEM ESTILIZAÇÃO DE COR ",
 			"scope": [
+				"entity.name.function",
 				"support.class.component",
 				"entity.other.attribute-name",
 				"keyword.control.from",
-				"variable.other.property",
 				"variable.other.property",
 				"entity.other.attribute-name.class.css",
 				"entity.name.tag.css"
@@ -832,7 +835,6 @@
 				"punctuation.definition.entity.css",
 				"variable.other.constant",
 				"variable.other.readwrite",
-				"support.type.property-name",
 				"storage.modifier"
 			],
 			"settings": {
@@ -857,7 +859,6 @@
 		{
 			"name": "crase em bolder",
 			"scope": [
-				"support.function.url",
 				"support.constant.property-value",
 				"variable.other.constant"
 			],
@@ -884,7 +885,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#34df00"
+				"foreground": "#4fc500"
 			}
 		},
 		{
@@ -913,44 +914,44 @@
 			],
 			"settings": {
 				"fontStyle": "", //aqui é bold bolder italic sem nada é fino
-				"foreground": "#b3f13f"
+				"foreground": "#A6E22E"
 			},
 		}
 	],
-  // =================== CONFIG: Basicas do vscode ===================
-  "editor.insertSpaces": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "breadcrumbs.enabled": true, // <== Mostra a navegação da pasta C:....
-  "workbench.iconTheme": "material-icon-theme", // <== Tema dos icones
-  "workbench.colorTheme": "LS Unique",
-  "workbench.preferredDarkColorTheme": "LS Unique",
-  "workbench.view.alwaysShowHeaderActions": true,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.tree.indent": 12, //distacias dos icones na janela explorador
-  // =================== CONFIG: editor ===================
-  "editor.rulers": [
-    120,
-  ], // <== Linhas guias
-  "editor.tabSize": 4, // <== Tamanho da tabulação
-  "editor.lineHeight": 18, // <== Altura da linha
-  "editor.fontLigatures": true, // <== Fonte com ligaduras
-  "editor.letterSpacing": -0.75, // Deixar o curso com efeito de 200 FPS
-  "editor.cursorSmoothCaretAnimation": "on", // Efeito quando o cursor pisca
-  "editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
-  "editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
-  "workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
-  "editor.parameterHints.enabled": true, // <== Desabilitar dicas de parâmetros
-  "editor.renderLineHighlight": "gutter", // <== Destacar linha atual
-  "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "expand",
-  "editor.stickyScroll.enabled": false, //habilita uma barra na parte superior de cada item 
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.wordWrap": "on",
-  "editor.scrollbar.horizontalScrollbarSize": 8,
-  "editor.scrollbar.verticalScrollbarSize": 8,
-  "editor.renderWhitespace": "trailing",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.guides.bracketPairsHorizontal": true,
-  "editor.guides.highlightActiveBracketPair": true,
+	// =================== CONFIG: Basicas do vscode ===================
+	"editor.insertSpaces": true,
+	"workbench.startupEditor": "newUntitledFile",
+	"breadcrumbs.enabled": true, // <== Mostra a navegação da pasta C:....
+	"workbench.iconTheme": "material-icon-theme", // <== Tema dos icones
+	"workbench.colorTheme": "LS Unique",
+	"workbench.preferredDarkColorTheme": "LS Unique",
+	"workbench.view.alwaysShowHeaderActions": true,
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.tree.indent": 12, //distacias dos icones na janela explorador
+	// =================== CONFIG: editor ===================
+	"editor.rulers": [
+		120,
+	], // <== Linhas guias
+	"editor.tabSize": 4, // <== Tamanho da tabulação
+	"editor.lineHeight": 18, // <== Altura da linha
+	"editor.fontLigatures": true, // <== Fonte com ligaduras
+	"editor.letterSpacing": -0.75, // Deixar o curso com efeito de 200 FPS
+	"editor.cursorSmoothCaretAnimation": "on", // Efeito quando o cursor pisca
+	"editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
+	"editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
+	"workbench.editor.labelFormat": "short", // <== Formato do nome do arquivo
+	"editor.parameterHints.enabled": true, // <== Desabilitar dicas de parâmetros
+	"editor.renderLineHighlight": "gutter", // <== Destacar linha atual
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "expand",
+	"editor.stickyScroll.enabled": false, //habilita uma barra na parte superior de cada item 
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.wordWrap": "on",
+	"editor.scrollbar.horizontalScrollbarSize": 8,
+	"editor.scrollbar.verticalScrollbarSize": 8,
+	"editor.renderWhitespace": "trailing",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"editor.guides.highlightActiveBracketPair": true,
 }
