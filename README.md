@@ -1,5 +1,13 @@
 # LS Unique theme DevLuan README
 
+I'm always updating the theme.
+Every time I'm working and studying and I see a color that would look better or isn't the right color, I update and go up to the platform.
+
+Thanks in advance for the comments
+
+### JavaScript
+![JavaScript](https://github.com/devluan/devluan-theme-unique/blob/master/img/index-jsx.png)
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:

@@ -766,7 +766,6 @@
 		{
 			"scope": [
 				"variable.other",
-				"variable.other.readwrite",
 				"variable.parameter",
 				"punctuation.definition.variable",
 				"variable.other.member",
@@ -835,7 +834,6 @@
 				"keyword.operator.assignment",
 				"punctuation.definition.entity.css",
 				"variable.other.constant",
-				"variable.other.readwrite",
 				"storage.modifier"
 			],
 			"settings": {
@@ -869,9 +867,10 @@
 			}
 		},
 		{
-			"name": "crase em bolder",
+			"name": "",
 			"scope": [
-				"variable.other.constant"
+				"variable.other.constant",
+				"variable.other.readwrite"
 			],
 			"settings": {
 				"fontStyle": "",
