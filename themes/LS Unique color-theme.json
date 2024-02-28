@@ -225,13 +225,6 @@
 			}
 		},
 		{
-			"name": "String",
-			"scope": "string",
-			"settings": {
-				"foreground": "#E6DB74"
-			}
-		},
-		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
@@ -343,14 +336,6 @@
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#66D9EF"
-			}
-		},
-		{
-			"name": "Library class/type",
-			"scope": "support.type, support.class",
-			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -468,12 +453,6 @@
 			}
 		},
 		{
-			"scope": "string",
-			"settings": {
-				"foreground": "#00ccff"
-			}
-		},
-		{
 			"scope": "keyword - keyword.operator",
 			"settings": {
 				"foreground": "#ffcc00"
@@ -516,13 +495,13 @@
 			}
 		},
 		{
-			"scope": "support.type",
-			"settings": {
-				"foreground": "#ff0066"
-			}
-		},
-		{
-			"scope": "support.class",
+			"scope": [
+				"support.class",
+				"support.constant",
+				"support.function",
+				"support.module",
+				"support.type",
+		],
 			"settings": {
 				"foreground": "#ff0066"
 			}
@@ -542,11 +521,17 @@
 		{
 			"scope": "variable",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#eeeeee"
 			}
 		},
 		{
-			"scope": "entity.name.variable",
+			"scope": [
+				"entity.name.variable",
+				"variable.other.readwrite.alias.js.jsx",
+				"meta.import.js.jsx",
+				"source.js.jsx"
+			],
 			"settings": {
 				"foreground": "#eeeeee"
 			}
@@ -719,7 +704,8 @@
 				"storage.type",
 				"storage.modifier",
 				"storage.type.js",
-				"keyword.control.import"
+				"keyword.control.import",
+				"punctuation.definition.template-expression.begin",
 			],
 			"settings": {
 				"foreground": "#ffd000",
@@ -741,19 +727,7 @@
 				"foreground": "#25baff"
 			}
 		},
-		{
-			"scope": [
-				"support.constant",
-				"support.function",
-				"support.module",
-				"support.type",
-				"support.class"
-			],
-			"settings": {
-				"foreground": "#ff0066",
-				"fontStyle": ""
-			}
-		},
+
 		{
 			"scope": [
 				"text.html",
@@ -769,7 +743,6 @@
 				"variable.parameter",
 				"punctuation.definition.variable",
 				"variable.other.member",
-				"variable.other.constant",
 				"variable.function",
 				"variable.language",
 				"variable.other.property",
@@ -778,24 +751,16 @@
 				"foreground": "#dbdbdb"
 			}
 		},
+	
 		{
-			"name": " AQUI AS COISAS SÃO ITALIC E SEM ESTILIZAÇÃO DE COR ",
+			"name": "TUDO SEM COR ESTILIZADA E SEM BOLD/BOLDER",
 			"scope": [
 				"entity.name.function",
-				"support.class.component",
 				"entity.other.attribute-name",
 				"keyword.control.from",
 				"variable.other.property",
 				"entity.other.attribute-name.class.css",
-				"entity.name.tag.css"
-			],
-			"settings": {
-				"fontStyle": "italic" //aqui é bold bolder italic sem nada é fino
-			}
-		},
-		{
-			"name": "TUDO SEM COR ESTILIZADA E SEM BOLD/BOLDER",
-			"scope": [
+				"entity.name.tag.css",
 				"entity.name.function",
 				"meta.var.expr", //parentesese {} [] de metodos
 				"keyword.control",
@@ -805,7 +770,6 @@
 				"keyword.control.conditional", // if e else
 				"punctuation.separator.key-value",
 				"support.constant", // resposta das chamadas no css, display: "flex", é o flex
-				"support.type", //são as funções la no css. width, margin..... e tbm no json
 				"punctuation.definition.string.begin.json.comments",
 				"storage.type.function", //function const let
 				"storage.type", // function, const, let
@@ -833,7 +797,6 @@
 				"keyword.operator.ternary",
 				"keyword.operator.assignment",
 				"punctuation.definition.entity.css",
-				"variable.other.constant",
 				"storage.modifier"
 			],
 			"settings": {
@@ -859,7 +822,6 @@
 			"name": "crase em bolder",
 			"scope": [
 				"support.constant.property-value",
-				"variable.other.constant"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -869,6 +831,13 @@
 		{
 			"name": "",
 			"scope": [
+				"variable.other.constant.js.jsx",
+				"meta.definition.variable.js.jsx",
+				"meta.array-binding-pattern-variable.js.jsx",
+				"meta.var.expr.js.jsx",
+				"meta.block.js.jsx",
+				"meta.function.js.jsx",
+				"source.js.jsx",
 				"variable.other.constant",
 				"variable.other.readwrite"
 			],
@@ -880,7 +849,7 @@
 		{
 			"name": "crase em bolder",
 			"scope": [
-				"string.template",
+				"string",
 				"entity.other.attribute-name"
 			],
 			"settings": {
@@ -895,15 +864,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#dddddd"
-			}
-		},
-		{
-			"name": "texto um pouco mais cinza nos import e variable",
-			"scope": [],
-			"settings": {
-				"fontStyle": "", //aqui é bold bolder italic sem nada é fino
-				"foreground": "#00c4c4"
+				"foreground": "#eeeeee"
 			}
 		},
 		{

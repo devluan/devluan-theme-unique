@@ -6,7 +6,7 @@ Every time I'm working and studying and I see a color that would look better or 
 Thanks in advance for the comments
 
 ### JavaScript
-![JavaScript](https://github.com/devluan/devluan-theme-unique/blob/master/img/index-jsx.png)
+![JavaScript](https://raw.githubusercontent.com/devluan/devluan-theme-unique/master/img/index-jsx.png)
 
 ## Working with Markdown
 
