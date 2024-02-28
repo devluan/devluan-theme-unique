@@ -501,7 +501,7 @@
 				"support.function",
 				"support.module",
 				"support.type",
-		],
+			],
 			"settings": {
 				"foreground": "#ff0066"
 			}
@@ -706,6 +706,7 @@
 				"storage.type.js",
 				"keyword.control.import",
 				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end.ts"
 			],
 			"settings": {
 				"foreground": "#ffd000",
@@ -727,7 +728,6 @@
 				"foreground": "#25baff"
 			}
 		},
-
 		{
 			"scope": [
 				"text.html",
@@ -751,7 +751,6 @@
 				"foreground": "#dbdbdb"
 			}
 		},
-	
 		{
 			"name": "TUDO SEM COR ESTILIZADA E SEM BOLD/BOLDER",
 			"scope": [
@@ -894,9 +893,9 @@
 		100,
 	], // <== Linhas guias
 	"editor.tabSize": 4, // <== Tamanho da tabulação
-	"editor.lineHeight": 18, // <== Altura da linha
+	"editor.lineHeight": 20, // <== Altura da linha
 	"editor.fontLigatures": true, // <== Fonte com ligaduras
-	"editor.letterSpacing": -0.75, // Deixar o curso com efeito de 200 FPS
+	"editor.letterSpacing": -0.25, // Deixar o curso com efeito de 200 FPS
 	"editor.cursorSmoothCaretAnimation": "on", // Efeito quando o cursor pisca
 	"editor.suggestSelection": "first", // <== Selecionar a primeira sugestão
 	"editor.accessibilitySupport": "off", // <== Desabilitar suporte a acessibilidade
