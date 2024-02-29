@@ -7,7 +7,7 @@ Thanks in advance for the comments
 
 ### JavaScript, HTML, styled-components
 
-![JavaScript, HTML, styled-components](https://raw.githubusercontent.com/devluan/devluan-theme-unique/master/img/index-jsx.png)
+![JavaScript, HTML, styled-components][HTML][styled-components](https://raw.githubusercontent.com/devluan/devluan-theme-unique/master/img/index-jsx.png)
 
 ## Working with Markdown
 
